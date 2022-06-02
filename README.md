@@ -5,24 +5,24 @@
 Ideally this application whould be behind authenticated layout, which means you will have to first login in order to view the data.
 However this feature is not implemented so anyone can access it. This would be required if we were saving the data into database, 
 because you would not want anyone to access your sensitive data, modify it or even erase.
-All data you will see is automaticaly generated with initial load of the page. Any similarities are purely coincidental.
+All data you will see is automaticaly generated with initial load of the page.\
+Any similarities are purely coincidental.\
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Views
 
-This application offers you multiple views to preview all the data provided
+This application offers you multiple views to preview all the data provided:
 - Contracts/Clieant/Advisors View
 - Details View
 
-### Contracts/Clieant/Advisors
+### Contracts/Client/Advisors
 
-At the bottom of the application is a navigation to switch between different views:
+At the bottom of the application is a navigation which enables you to switch between different views:
 - In `Contract` view you can see all contracts.
 - In `Clients` view you can see all clients.
 - In `Advisors` view you can see all advisors.
 
 In the table is shown just the critial information, the rest is in the given `Detail View` which is accesible through `DETAIL` button at the end of the given row.
-> More on that on "Details View"
 
 ### Details
 
@@ -31,8 +31,8 @@ The Detail view has two sections:
 - Person (right side)
 
 Contract View has all the information a contract has so:
-- Institution (Česká spořitelna)
-- Owner of the contract
+- Institution (bank in czechia (Česká spořitelna))
+- Owner of the contract - you can access detail of the person by clicking on it
 - Admin (main advisor) - you can access detail of the person by clicking on it
 - Advisors (the rest of the advisors if any) - you can access detail of a person by clicking on it
 - Date Created (when was the contract signed (for example))
