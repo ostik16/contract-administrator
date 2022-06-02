@@ -18,7 +18,7 @@ This application offers you multiple views to preview all the data provided:
 ### Contracts/Client/Advisors
 
 At the bottom of the application is a navigation which enables you to switch between different views:
-- In `Contract` view you can see all contracts.
+- In `Contracts` view you can see all contracts.
 - In `Clients` view you can see all clients.
 - In `Advisors` view you can see all advisors.
 
